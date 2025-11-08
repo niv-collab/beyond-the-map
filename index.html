@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Beyond the Map — Home</title>
+  <meta name="description" content="Beyond the Map: community-sourced travel guides highlighting hidden gems and local experiences." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="site-nav">
+      <h1 class="brand">Beyond the Map</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover-paris.html">Discover</a></li>
+        <li><a href="stories.html">Stories</a></li>
+        <li><a href="contact.html">Connect</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Discover cities through local stories & hidden gems</h2>
+      <p>Community-sourced guides that help you explore beyond tourist maps.</p>
+      <img src="images/hero.jpg" alt="City street scene with travelers" />
+    </section>
+
+    <!-- Featured Destinations -->
+    <section class="featured">
+      <h3>Featured Cities</h3>
+      <div class="cards">
+        <article class="card">
+          <h4>Paris</h4>
+          <p>City highlights, cultural insights, and local recommendations.</p>
+          <a href="discover-paris.html">Explore Paris →</a>
+        </article>
+
+        <article class="card">
+          <h4>New York</h4>
+          <p>Neighborhood tips, local eats, and hidden viewpoints.</p>
+          <a href="discover-ny.html">Explore New York →</a>
+        </article>
+
+        <article class="card">
+          <h4>Seoul</h4>
+          <p>Traditional markets, modern cafés, and culture notes.</p>
+          <a href="discover-seoul.html">Explore Seoul →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Table Section -->
+    <section class="itineraries">
+      <h3>Quick Itineraries</h3>
+      <p>Compare trip ideas for each destination below.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Destination</th>
+            <th>Days</th>
+            <th>Top Activities</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Paris</td>
+            <td>3</td>
+            <td>Montmartre, secret patisserie, river walk</td>
+          </tr>
+          <tr>
+            <td>New York</td>
+            <td>4</td>
+            <td>Food tour, rooftop park, museum</td>
+          </tr>
+          <tr>
+            <td>Seoul</td>
+            <td>3</td>
+            <td>Hanok village, night market, tea house</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- External Links -->
+    <section class="links">
+      <h3>Useful Links</h3>
+      <ul>
+        <li><a href="https://www.google.com/maps" target="_blank" rel="noopener">Google Maps</a></li>
+        <li><a href="https://www.asu.edu" target="_blank" rel="noopener">Arizona State University</a></li>
+      </ul>
+    </section>
+
+    <!-- Contact Preview -->
+    <section class="contact-preview">
+      <h3>Get in Touch</h3>
+      <p>Want to share a travel tip or correction? Visit our <a href="contact.html">Contact Page</a> to submit your message.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Beyond the Map — community travel guides.</p>
+  </footer>
+
+  <script>
+    // Auto update footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
