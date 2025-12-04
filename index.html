@@ -5,23 +5,23 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Beyond the Map — Home</title>
 
-  <!-- Meta Tags -->
-  <meta name="description" content="Beyond the Map: community-sourced travel guides highlighting hidden gems and local experiences." />
-  <meta name="keywords" content="travel, local travel, hidden gems, city guides, art travel, beyond the map, community stories, tourism, culture" />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DW0JEJTSG0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta name="description" content="Community-driven travel guides featuring local insights, hidden gems, food recommendations, and cultural stories." />
+  <meta name="keywords" content="travel, local guides, hidden gems, food, culture, tourism, community travel, city guides" />
 
-  gtag('config', 'G-DW0JEJTSG0');
-</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DW0JEJTSG0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DW0JEJTSG0');
+  </script>
 
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 
-<body>
+<body style="background:#F7F1E5; color:#333;">
+
   <header>
     <nav class="site-nav">
       <h1 class="brand">Beyond the Map</h1>
@@ -36,106 +36,92 @@
 
   <main class="container">
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <h2>Discover cities through local stories & hidden gems</h2>
-      <p>Community-sourced guides that help you explore beyond tourist maps.</p>
-      <img src="images/hero.jpg" alt="City street scene with travelers" />
+    <!-- HERO -->
+    <section class="hero" style="text-align:center; padding:25px;">
+      <h2 style="color:#D97C48;">Discover Cities Through Local Stories</h2>
+      <p style="max-width:700px; margin:auto;">
+        A community-driven platform where travelers and locals share authentic insights,
+        hidden gems, food recommendations, and weekly cultural experiences.
+      </p>
+      <img src="images/hero.jpg" alt="City street with travelers" style="max-width:100%; border-radius:12px; margin-top:15px;">
     </section>
 
-    <!-- Featured Destinations -->
-    <section class="featured">
-      <h3>Featured Cities</h3>
-      <div class="cards">
+    <!-- FEATURED CITIES -->
+    <section style="background:white; padding:20px; border-radius:12px; margin-top:30px;">
+      <h3 style="color:#D97C48;">Featured Cities</h3>
 
-        <article class="card">
-          <h4>Paris</h4>
-          <p>City highlights, cultural insights, and local recommendations.</p>
-          <a href="discover-paris.html">Explore Paris →</a>
+      <div class="cards" style="display:flex; flex-wrap:wrap; gap:20px;">
+        
+        <article style="background:#FDFBF6; border-left:4px solid #D97C48; padding:15px; flex:1; border-radius:8px; min-width:250px;">
+          <h4 style="color:#D97C48;">Paris</h4>
+          <p>Art, culture, local cafés, and hidden Parisian streets.</p>
+          <a href="discover-paris.html" style="color:#D97C48; font-weight:bold;">Explore Paris →</a>
         </article>
 
-        <article class="card">
-          <h4>New York</h4>
-          <p>Neighborhood tips, local eats, and hidden viewpoints.</p>
-          <a href="discover-ny.html">Explore New York →</a>
+        <article style="background:#FDFBF6; border-left:4px solid #D97C48; padding:15px; flex:1; border-radius:8px; min-width:250px;">
+          <h4 style="color:#D97C48;">New York</h4>
+          <p>Neighborhood gems, skyline views, and cultural diversity.</p>
+          <a href="discover-ny.html" style="color:#D97C48; font-weight:bold;">Explore New York →</a>
         </article>
 
-        <article class="card">
-          <h4>Seoul</h4>
-          <p>Traditional markets, modern cafés, and culture notes.</p>
-          <a href="discover-seoul.html">Explore Seoul →</a>
+        <article style="background:#FDFBF6; border-left:4px solid #D97C48; padding:15px; flex:1; border-radius:8px; min-width:250px;">
+          <h4 style="color:#D97C48;">Seoul</h4>
+          <p>Hanok villages, vibrant cafés, and creative street art.</p>
+          <a href="discover-seoul.html" style="color:#D97C48; font-weight:bold;">Explore Seoul →</a>
         </article>
 
       </div>
     </section>
 
-    <!-- Intro Video Section (REQUIRED FOR RUBRIC) -->
-    <section class="intro-video">
-      <h3>Explore Beyond the Map</h3>
+    <!-- VIDEO SECTION -->
+    <section style="background:#A8D5BA; padding:20px; border-radius:12px; margin-top:30px; text-align:center;">
+      <h3 style="color:#D97C48;">A Glimpse Beyond the Map</h3>
       <video width="360" height="240" controls>
         <source src="video/intro.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <p>A colorful look at the art, culture, and hidden-city vibes that inspire our guides.</p>
+      <p style="margin-top:10px;">Experience the colorful, artistic, and cultural depth that inspires this guide.</p>
     </section>
 
-    <!-- Table Section -->
-    <section class="itineraries">
-      <h3>Quick Itineraries</h3>
-      <p>Compare trip ideas for each destination below.</p>
-      <table>
+    <!-- TABLE -->
+    <section style="background:white; padding:20px; border-radius:12px; margin-top:30px;">
+      <h3 style="color:#D97C48;">Quick Itineraries</h3>
+      <table style="width:100%; margin-top:10px;">
         <thead>
           <tr>
             <th>Destination</th>
             <th>Days</th>
-            <th>Top Activities</th>
+            <th>Activities</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Paris</td>
-            <td>3</td>
-            <td>Montmartre, secret patisserie, river walk</td>
-          </tr>
-          <tr>
-            <td>New York</td>
-            <td>4</td>
-            <td>Food tour, rooftop park, museum</td>
-          </tr>
-          <tr>
-            <td>Seoul</td>
-            <td>3</td>
-            <td>Hanok village, night market, tea house</td>
-          </tr>
+          <tr><td>Paris</td><td>3</td><td>Montmartre • Patisseries • River walk</td></tr>
+          <tr><td>New York</td><td>4</td><td>Food markets • Rooftop parks • Museums</td></tr>
+          <tr><td>Seoul</td><td>3</td><td>Hanok • Night markets • Tea houses</td></tr>
         </tbody>
       </table>
     </section>
 
-    <!-- External Links -->
-    <section class="links">
-      <h3>Useful Links</h3>
+    <!-- EXTERNAL LINKS -->
+    <section style="background:#A8D5BA; padding:20px; border-radius:12px; margin-top:30px;">
+      <h3 style="color:#D97C48;">Helpful Links</h3>
       <ul>
-        <li><a href="https://www.google.com/maps" target="_blank" rel="noopener">Google Maps</a></li>
-        <li><a href="https://www.asu.edu" target="_blank" rel="noopener">Arizona State University</a></li>
+        <li><a href="https://www.google.com/maps" target="_blank" style="color:#D97C48;">Google Maps</a></li>
+        <li><a href="https://www.asu.edu" target="_blank" style="color:#D97C48;">Arizona State University</a></li>
       </ul>
     </section>
 
-    <!-- Contact Preview -->
-    <section class="contact-preview">
-      <h3>Get in Touch</h3>
-      <p>Want to share a travel tip or correction? Visit our <a href="contact.html">Contact Page</a> to submit your message.</p>
+    <!-- CONTACT PREVIEW -->
+    <section style="background:white; padding:20px; border-radius:12px; margin-top:30px;">
+      <h3 style="color:#D97C48;">Get in Touch</h3>
+      <p>Want to recommend a place or share a travel story? Visit our <a href="contact.html" style="color:#D97C48;">Contact Page</a>.</p>
     </section>
 
   </main>
 
   <footer>
-    <p>&copy; <span id="year"></span> Beyond the Map — community travel guides.</p>
+    <p>&copy; Beyond the Map — Community Travel Guides.</p>
   </footer>
-
-  <script>
-    // Auto update footer year
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 
 </body>
 </html>
