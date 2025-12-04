@@ -4,19 +4,21 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Connect — Beyond the Map</title>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DW0JEJTSG0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-DW0JEJTSG0');
-</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DW0JEJTSG0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DW0JEJTSG0');
+  </script>
 
   <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body>
+
+<body style="background:#F7F1E5; color:#333;">
+
   <header>
     <nav class="site-nav">
       <h1 class="brand">Beyond the Map</h1>
@@ -30,28 +32,43 @@
   </header>
 
   <main class="container">
-    <h2>Connect</h2>
-    <p>Send a recommendation or report a correction.</p>
 
-    <form id="connect-form" action="#" method="post">
-      <label for="name">Name</label><br/>
-      <input id="name" name="name" type="text" required><br/>
+    <section style="text-align:center; padding:20px;">
+      <h2 style="color:#D97C48;">Connect With Us</h2>
+      <p>Have a recommendation, story, or local insight to share? We’d love to hear from you.</p>
 
-      <label for="email">Email</label><br/>
-      <input id="email" name="email" type="email" required><br/>
+      <p style="margin-top:15px;">
+        Prefer email?  
+        <a href="mailto:yourASUemail@asu.edu" style="color:#D97C48;">yourASUemail@asu.edu</a>
+      </p>
+    </section>
 
-      <label for="page">City or Page</label><br/>
-      <input id="page" name="page" type="text" placeholder="e.g., Paris / Discover page" required><br/>
+    <!-- FORM -->
+    <section style="background:white; padding:20px; border-radius:12px; max-width:600px; margin:auto;">
+      <form action="#" method="post">
+        <label for="name">Name</label><br>
+        <input id="name" name="name" type="text" required style="width:100%; margin-bottom:10px;"><br>
 
-      <label for="message">Message</label><br/>
-      <textarea id="message" name="message" rows="5" required></textarea><br/>
+        <label for="email">Email</label><br>
+        <input id="email" name="email" type="email" required style="width:100%; margin-bottom:10px;"><br>
 
-      <button type="submit">Submit</button>
-    </form>
+        <label for="page">City or Page</label><br>
+        <input id="page" name="page" type="text" placeholder="ex: Paris / Discover page" required style="width:100%; margin-bottom:10px;"><br>
+
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="5" required style="width:100%; margin-bottom:10px;"></textarea><br>
+
+        <button type="submit" style="background:#D97C48; color:white; padding:10px 20px; border:none; border-radius:5px;">
+          Submit
+        </button>
+      </form>
+    </section>
+
   </main>
 
   <footer>
-    <p>&copy; Beyond the Map</p>
+    <p>&copy; Beyond the Map — Community Travel Guides.</p>
   </footer>
+
 </body>
 </html>
